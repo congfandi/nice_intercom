@@ -15,6 +15,8 @@ A new Flutter project.
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*'
   s.dependency 'Flutter'
+  s.dependency 'Intercom'
+  s.dependency 'Intercom', '16.0.1'
   s.platform = :ios, '11.0'
 
   # Flutter.framework does not contain a i386 slice.
